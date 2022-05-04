@@ -1,0 +1,17 @@
+{
+  "name": "eloquentjs-exercises",
+  "description": "Code snippets and exercises from Eloquent JavaScript (third edition)",
+  "main": "chap4_list.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "author": "OneWittyGrassBlade",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "jest": "^28.0.3"
+  }
+}
