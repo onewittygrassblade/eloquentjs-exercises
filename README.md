@@ -1,3 +1,6 @@
+[![CI](https://github.com/onewittygrassblade/eloquentjs-exercises/actions/workflows/ci.yml/badge.svg)](https://github.com/onewittygrassblade/eloquentjs-exercises/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/onewittygrassblade/eloquentjs-exercises/branch/main/graph/badge.svg?token=ESS29P0AUM)](https://codecov.io/gh/onewittygrassblade/eloquentjs-exercises)
+
 # Eloquent JavaScript exercises
 
 This is a non-exhaustive collection of code snippets from examples and exercises from [Eloquent JavaScript](https://eloquentjavascript.net/) (third edition).
