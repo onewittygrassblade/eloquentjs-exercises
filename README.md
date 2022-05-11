@@ -31,7 +31,7 @@ Running a specific test:
 npm test -- chap4/list.test.js
 ```
 
-## Directly running the code snippets
+### Directly running the code snippets
 
 Some code snippets contain some manual test code (commented out to avoid making the tests noisy due to `console.log`) at the bottom of the file, after the exports. These can be run (after uncommenting the lines) using `node`:
 ```
