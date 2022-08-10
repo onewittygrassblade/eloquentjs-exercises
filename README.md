@@ -33,7 +33,7 @@ npm test -- chap4/list.test.js
 
 ### Directly running the code snippets
 
-Some code snippets contain some manual test code (commented out to avoid making the tests noisy due to `console.log`) at the bottom of the file, after the exports. These can be run (after uncommenting the lines) using `node`:
+Some code snippets contain some manual test code outputing to `console.logs`. These can be run (after uncommenting the lines) using `node`:
 ```
 node chap4/squirrel.js
 ```
