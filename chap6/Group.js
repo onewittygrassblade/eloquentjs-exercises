@@ -30,14 +30,14 @@ class Group {
   }
 
   add(element) {
-    if (!this.#elements.includes(element)) {
+    if (!this.has(element)) {
       this.#elements.push(element);
     }
     return this;
   }
 
   delete(element) {
-    if (this.#elements.includes(element)) {
+    if (this.has(element)) {
       this.#elements = this.#elements.filter((e) => e !== element);
     }
     return this;

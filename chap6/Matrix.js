@@ -27,7 +27,7 @@ class Matrix {
     this.content[y * this.width + x] = value;
   }
 
-  print() {
+  toString() {
     let output = '';
     for (let i = 0; i < this.height; i++) {
       output += this.content
@@ -78,4 +78,4 @@ module.exports = Matrix;
 // for (const { x, y, value } of matrix) {
 //   console.log(x, y, value);
 // }
-// console.log(matrix.print());
+// console.log(matrix.toString());
