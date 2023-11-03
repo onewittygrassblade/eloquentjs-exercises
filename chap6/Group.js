@@ -76,7 +76,7 @@ class GroupIterator {
   }
 }
 
-Group.prototype[Symbol.iterator] = function () { // eslint-disable-line func-names
+Group.prototype[Symbol.iterator] = function () {
   return new GroupIterator(this);
 };
 

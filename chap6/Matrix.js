@@ -66,7 +66,7 @@ class MatrixIterator {
   }
 }
 
-Matrix.prototype[Symbol.iterator] = function () { // eslint-disable-line func-names
+Matrix.prototype[Symbol.iterator] = function () {
   return new MatrixIterator(this);
 };
 

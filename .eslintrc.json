@@ -15,7 +15,14 @@
     "ecmaVersion": "latest"
   },
   "rules": {
+    "func-names": "off",
     "max-classes-per-file": "off",
+    "no-empty": ["error", {
+      "allowEmptyCatch": true
+    }],
+    "no-param-reassign": ["error", {
+      "props": false
+    }],
     "no-plusplus": ["error", {
       "allowForLoopAfterthoughts": true
     }],
